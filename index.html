@@ -3,6 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="./styles/styles.css">
@@ -11,10 +16,10 @@
 </head>
 
 <body>
-    <main style="display: grid; justify-content: center; align-items: center; min-height: 100vh;">
+    <main class="center-structure">
         <div class="container">
-            <div style="background-color: antiquewhite;" class="box box-1">
-                <div id="profile">
+            <div class="box box-1">
+                <div class="profile" id="profile">
                     <img src="./imgs/image-jeremy.png" alt="Jeremy's profile picture">
                     <div id="profile-info">
                         <p>Report for</p>
@@ -27,17 +32,22 @@
                     <button id="monthly-btn">Monthly</button>
                 </div>
             </div>
-            <div style="background-color: antiquewhite;" class="box box-2" id="box-1">
+
+            <div class="box-2 box" style="display: flex; flex-direction: column; justify-content: space-between;">                
+                <div id="box-1">
+                </div>
+
             </div>
-            <div style="background-color: antiquewhite;" class="box box-3" id="box-2">
+
+            <div class="box box-3" id="box-2">
             </div>
-            <div style="background-color: antiquewhite;" class="box box-4" id="box-3">
+            <div class="box box-4" id="box-3">
             </div>
-            <div style="background-color: antiquewhite;" class="box box-5" id="box-4">
+            <div class="box box-5" id="box-4">
             </div>
-            <div style="background-color: antiquewhite;" class="box box-6" id="box-5">
+            <div class="box box-6" id="box-5">
             </div>
-            <div style="background-color: antiquewhite;" class="box box-7" id="box-6">
+            <div class="box box-7" id="box-6">
             </div>
         </div>
     </main>
