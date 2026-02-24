@@ -18,13 +18,14 @@ El proyecto se enfoca en el desarrollo moderno de lograr que las páginas web se
 - [Contacto](#-https://cesarvelazquezo.netlify.app/)
 
 1. **Clonar el repositorio:**
+
    ```bash
    git clone https://github.com/cesarvelazquez/timeTrackingDashboard
    ```
+
 2. **Url del sitio:**
    ```bash
-   sitio: 
-   
+   https://timetrackingfront.netlify.app/
    ```
 
 # socialLink
