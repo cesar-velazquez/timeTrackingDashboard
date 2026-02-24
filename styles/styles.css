@@ -84,7 +84,7 @@
 .container {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 375px));
-    grid-template-rows: repeat(2, minmax(230px, auto));
+    grid-template-rows: repeat(2, minmax(275px, auto));
     gap: 2rem;
     grid-template-areas:
         "jeremy work play study"
